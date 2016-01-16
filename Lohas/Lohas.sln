@@ -19,11 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Business.Component.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikMvcApp1", "TelerikMvcApp1\TelerikMvcApp1.csproj", "{47A6DCCE-DF8D-42EA-BC64-DA7F9A079A32}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{FFAD6B76-496A-4F34-821E-9D5D9E089035}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess\DataAccess.csproj", "{192F68D8-92B3-4530-9265-B69622FC3513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Web", "Web\Lohas.Web\Lohas.Web.csproj", "{502D3045-702E-4174-9AC2-4DA7CA8BA847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +47,14 @@ Global
 		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47A6DCCE-DF8D-42EA-BC64-DA7F9A079A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47A6DCCE-DF8D-42EA-BC64-DA7F9A079A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47A6DCCE-DF8D-42EA-BC64-DA7F9A079A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47A6DCCE-DF8D-42EA-BC64-DA7F9A079A32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{192F68D8-92B3-4530-9265-B69622FC3513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{192F68D8-92B3-4530-9265-B69622FC3513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192F68D8-92B3-4530-9265-B69622FC3513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192F68D8-92B3-4530-9265-B69622FC3513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502D3045-702E-4174-9AC2-4DA7CA8BA847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502D3045-702E-4174-9AC2-4DA7CA8BA847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502D3045-702E-4174-9AC2-4DA7CA8BA847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502D3045-702E-4174-9AC2-4DA7CA8BA847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
