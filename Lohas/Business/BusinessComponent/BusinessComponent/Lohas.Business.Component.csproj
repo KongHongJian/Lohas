@@ -43,8 +43,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
-      <Project>{f0c37b5b-255c-4312-aad8-22edfe9cff82}</Project>
+    <ProjectReference Include="..\..\..\Framework\Lohas.Core\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
+      <Project>{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}</Project>
       <Name>Lohas.Core.Ioc</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\BusinessComponentContract\BusinessComponentContract\Lohas.Business.Component.Contract.csproj">

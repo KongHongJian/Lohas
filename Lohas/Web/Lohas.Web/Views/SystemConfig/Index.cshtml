@@ -1,0 +1,36 @@
+﻿@section css{
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.metro.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.dataviz.metro.min.css" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+}
+
+
+@(Html.Kendo().Grid<Lohas.Web.database.Systems_SiteMap>()
+          .Name("grid")
+          .Columns(columns =>
+          {
+              columns.Bound(c => c.Title);
+              columns.Bound(c => c.Description);
+              columns.Bound(c => c.Url);
+              columns.Bound(c => c.UrlController);
+              columns.Bound(c => c.UrlAction);
+              columns.Bound(c => c.ParentID);
+          })
+          .Scrollable()
+          .DataSource(dataSource => dataSource
+              .Ajax()
+              .Read(read => read.Action("Systems_SiteMap_Read", "SystemConfig"))
+          )
+)
+@section js
+{
+    <script src="~/Scripts/kendo/2015.3.1111/jquery.min.js"></script>
+    <script src="~/Scripts/kendo/2015.3.1111/kendo.all.min.js"></script>
+    <script src="~/Scripts/kendo/2015.3.1111/kendo.aspnetmvc.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script src="@Url.Content("~/Scripts/kendo.modernizr.custom.js")"></script>
+}

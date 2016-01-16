@@ -1,0 +1,58 @@
+﻿@model SiteMapNodeCollection
+    
+@{
+    var authoirzedMenus = ViewBag.AuthorizedMenu as IList<string>;
+}
+
+@if (Model == null)
+{
+    return;
+}
+<div class="nav cl">
+    <ul class="nav-list  cl">
+        @foreach (SiteMapNode node in Model)
+        {
+            //if (!Utility.HasAuthorized(authoirzedMenus, node.Key))
+            //{
+            //    //not authorized and also not admin
+            //    //in another words, admin can have access to all functions
+            //    continue;
+            //}
+
+            <li><a>@node.Title</a></li>
+        }
+    </ul>
+    <a href="javascript:void(0);" class="btn-toLeft iconfont">&#x1009;</a>
+    <a href="javascript:void(0);" class="btn-toRight iconfont">&#x1011;</a>
+</div>
+<div class="sub-nav">
+    @foreach (SiteMapNode firstNode in Model)
+    {
+        //if (!Utility.HasAuthorized(authoirzedMenus, firstNode.Key))
+        //{
+        //    continue;
+        //}
+
+        <div class="top-arrow">
+            <div class="content">
+                <ul>
+                    @if (firstNode.HasChildNodes)
+                    {
+                        foreach (SiteMapNode secondNode in firstNode.ChildNodes)
+                        {
+                            //if (!Utility.HasAuthorized(authoirzedMenus, secondNode.Key))
+                            //{
+                            //    continue;
+                            //}
+
+                          
+
+                        }
+                    }
+                </ul>
+            </div>
+            <s><i></i></s>
+        </div>
+    }
+</div>
+

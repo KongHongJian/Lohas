@@ -2,3 +2,7 @@ E:\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\bin\
 E:\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\bin\Debug\Lohas.Business.Component.Contract.pdb
 E:\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\obj\Debug\Lohas.Business.Component.Contract.dll
 E:\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\obj\Debug\Lohas.Business.Component.Contract.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\bin\Debug\Lohas.Business.Component.Contract.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\bin\Debug\Lohas.Business.Component.Contract.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\obj\Debug\Lohas.Business.Component.Contract.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponentContract\BusinessComponentContract\obj\Debug\Lohas.Business.Component.Contract.pdb

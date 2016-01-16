@@ -47,6 +47,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -165,18 +167,65 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SystemConfig\GridController.cs" />
+    <Compile Include="Controllers\SystemConfigController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="database\Category.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Customer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Employee.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="database\Order.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\OrderDetail.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Product.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Shipper.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Supplier.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database\Systems_SiteMap.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SystemConfig\SiteMapModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Fonts\icomoon.svg" />
     <Content Include="Content\kendo\2015.3.1111\ascx\Currency.ascx" />
     <Content Include="Content\kendo\2015.3.1111\ascx\Date.ascx" />
     <Content Include="Content\kendo\2015.3.1111\ascx\DateTime.ascx" />
@@ -525,10 +574,35 @@
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_2x.png" />
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_kpi.png" />
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_kpi_2x.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Site1.css" />
+    <Content Include="navbar\css\bootstrap-rtl.css" />
+    <Content Include="navbar\css\bootstrap-rtl.min.css" />
+    <Content Include="navbar\css\bootstrap.css" />
+    <Content Include="navbar\css\bootstrap.min.css" />
+    <Content Include="navbar\css\plugins\morris.css" />
+    <Content Include="navbar\css\sb-admin-rtl.css" />
+    <Content Include="navbar\css\sb-admin.css" />
+    <Content Include="navbar\font-awesome\css\font-awesome.css" />
+    <Content Include="navbar\font-awesome\css\font-awesome.min.css" />
+    <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="navbar\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="navbar\js\bootstrap.js" />
+    <Content Include="navbar\js\bootstrap.min.js" />
+    <Content Include="navbar\js\jquery.js" />
+    <Content Include="navbar\js\plugins\flot\excanvas.min.js" />
+    <Content Include="navbar\js\plugins\flot\flot-data.js" />
+    <Content Include="navbar\js\plugins\flot\jquery.flot.js" />
+    <Content Include="navbar\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="navbar\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="navbar\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="navbar\js\plugins\morris\morris-data.js" />
+    <Content Include="navbar\js\plugins\morris\morris.js" />
+    <Content Include="navbar\js\plugins\morris\morris.min.js" />
+    <Content Include="navbar\js\plugins\morris\raphael.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\kendo\2015.3.1111\razor\Url.cshtml" />
@@ -561,6 +635,60 @@
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans-Bold.ttf" />
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans.ttf" />
+    <Content Include="Content\Fonts\icomoon.eot" />
+    <Content Include="Content\Fonts\icomoon.ttf" />
+    <Content Include="Content\Fonts\icomoon.woff" />
+    <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="navbar\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="navbar\font-awesome\less\bordered-pulled.less" />
+    <Content Include="navbar\font-awesome\less\core.less" />
+    <Content Include="navbar\font-awesome\less\fixed-width.less" />
+    <Content Include="navbar\font-awesome\less\font-awesome.less" />
+    <Content Include="navbar\font-awesome\less\icons.less" />
+    <Content Include="navbar\font-awesome\less\larger.less" />
+    <Content Include="navbar\font-awesome\less\list.less" />
+    <Content Include="navbar\font-awesome\less\mixins.less" />
+    <Content Include="navbar\font-awesome\less\path.less" />
+    <Content Include="navbar\font-awesome\less\rotated-flipped.less" />
+    <Content Include="navbar\font-awesome\less\spinning.less" />
+    <Content Include="navbar\font-awesome\less\stacked.less" />
+    <Content Include="navbar\font-awesome\less\variables.less" />
+    <Content Include="navbar\font-awesome\scss\font-awesome.scss" />
+    <Content Include="navbar\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="navbar\font-awesome\scss\_core.scss" />
+    <Content Include="navbar\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="navbar\font-awesome\scss\_icons.scss" />
+    <Content Include="navbar\font-awesome\scss\_larger.scss" />
+    <Content Include="navbar\font-awesome\scss\_list.scss" />
+    <Content Include="navbar\font-awesome\scss\_mixins.scss" />
+    <Content Include="navbar\font-awesome\scss\_path.scss" />
+    <Content Include="navbar\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="navbar\font-awesome\scss\_spinning.scss" />
+    <Content Include="navbar\font-awesome\scss\_stacked.scss" />
+    <Content Include="navbar\font-awesome\scss\_variables.scss" />
+    <Content Include="navbar\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="navbar\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="navbar\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="navbar\fonts\glyphicons-halflings-regular.woff2" />
+    <EntityDeploy Include="database\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="database\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="database\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="database\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -569,6 +697,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\kendo.modernizr.custom.js" />
     <Content Include="Scripts\kendo\2015.3.1111\angular.min.js" />
     <Content Include="Scripts\kendo\2015.3.1111\cultures\kendo.culture.af-ZA.min.js" />
     <Content Include="Scripts\kendo\2015.3.1111\cultures\kendo.culture.af.min.js" />
@@ -1299,6 +1428,10 @@
     <Content Include="Scripts\kendo\2015.3.1111\kendo.angular.min.js.map" />
     <Content Include="Scripts\kendo\2015.3.1111\kendo.all.min.js.map" />
     <Content Include="Scripts\kendo\2015.3.1111\jquery.min.map" />
+    <Content Include="Views\Test\Navbar.cshtml" />
+    <Content Include="Views\Shared\_Navigation.cshtml" />
+    <Content Include="Views\Grid\Index.cshtml" />
+    <Content Include="Views\SystemConfig\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1309,6 +1442,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\Lohas.Core.Web.csproj">
+      <Project>{580941eb-fc37-43c1-ae39-46517bf714d4}</Project>
+      <Name>Lohas.Core.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

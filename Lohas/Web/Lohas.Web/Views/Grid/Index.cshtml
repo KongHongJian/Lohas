@@ -1,0 +1,14 @@
+﻿
+@(Html.Kendo().Grid<Lohas.Web.database.Category>()
+      .Name("grid")
+      .Columns(columns =>
+      {
+        columns.Bound(c => c.categoryname);
+        columns.Bound(c => c.description);
+      })
+      .Scrollable()
+      .DataSource(dataSource => dataSource
+          .Ajax()
+          .Read(read => read.Action("Categories_Read", "Grid"))
+      )
+)

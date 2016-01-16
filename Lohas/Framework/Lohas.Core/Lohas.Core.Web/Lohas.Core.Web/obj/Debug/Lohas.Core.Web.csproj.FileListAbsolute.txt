@@ -1,0 +1,13 @@
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\Lohas.Core.Web.dll.config
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\Lohas.Core.Web.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\Lohas.Core.Web.pdb
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\DataAccess.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\EntityFramework.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\DataAccess.pdb
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\EntityFramework.xml
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\obj\Debug\Lohas.Core.Web.csprojResolveAssemblyReference.cache
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\obj\Debug\Lohas.Core.Web.dll
+E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\obj\Debug\Lohas.Core.Web.pdb

@@ -32,6 +32,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
@@ -49,6 +57,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -73,7 +82,11 @@
       <Project>{48e95082-5eb1-4b88-9821-8f5788ac7c29}</Project>
       <Name>Lohas.Business.Component</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
+    <ProjectReference Include="..\DataAccess\DataAccess\DataAccess.csproj">
+      <Project>{192F68D8-92B3-4530-9265-B69622FC3513}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Lohas.Core\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
       <Project>{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}</Project>
       <Name>Lohas.Core.Ioc</Name>
     </ProjectReference>
