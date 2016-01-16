@@ -177,6 +177,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Fonts\icomoon.svg" />
     <Content Include="Content\kendo\2015.3.1111\ascx\Currency.ascx" />
     <Content Include="Content\kendo\2015.3.1111\ascx\Date.ascx" />
     <Content Include="Content\kendo\2015.3.1111\ascx\DateTime.ascx" />
@@ -525,10 +526,11 @@
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_2x.png" />
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_kpi.png" />
     <Content Include="Content\kendo\2015.3.1111\Uniform\sprite_kpi_2x.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Site1.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\kendo\2015.3.1111\razor\Url.cshtml" />
@@ -561,6 +563,9 @@
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans-Bold.ttf" />
     <Content Include="Content\kendo\2015.3.1111\fonts\DejaVu\DejaVuSans.ttf" />
+    <Content Include="Content\Fonts\icomoon.eot" />
+    <Content Include="Content\Fonts\icomoon.ttf" />
+    <Content Include="Content\Fonts\icomoon.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -569,6 +574,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\kendo.modernizr.custom.js" />
     <Content Include="Scripts\kendo\2015.3.1111\angular.min.js" />
     <Content Include="Scripts\kendo\2015.3.1111\cultures\kendo.culture.af-ZA.min.js" />
     <Content Include="Scripts\kendo\2015.3.1111\cultures\kendo.culture.af.min.js" />

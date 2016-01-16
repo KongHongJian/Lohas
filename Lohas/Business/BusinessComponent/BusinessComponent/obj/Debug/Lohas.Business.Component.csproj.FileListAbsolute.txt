@@ -14,3 +14,15 @@ E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.
 E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.csprojResolveAssemblyReference.cache
 E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.dll
 E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Business.Component.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Business.Component.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Business.Component.Contract.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Business.Component.Contract.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.csprojResolveAssemblyReference.cache
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.Business.Component.pdb
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Core.Ioc.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\GitProject\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Core.Ioc.pdb

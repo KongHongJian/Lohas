@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LohasModelsStoreContainer" CdmEntityContainer="LohasContext">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="LohasModels.Employees">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="titleofcourtesy" ColumnName="titleofcourtesy" />
+          <ScalarProperty Name="birthdate" ColumnName="birthdate" />
+          <ScalarProperty Name="hiredate" ColumnName="hiredate" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="postalcode" ColumnName="postalcode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mgrid" ColumnName="mgrid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="LohasModels.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+          <ScalarProperty Name="categoryname" ColumnName="categoryname" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="LohasModels.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="supplierid" ColumnName="supplierid" />
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+          <ScalarProperty Name="unitprice" ColumnName="unitprice" />
+          <ScalarProperty Name="discontinued" ColumnName="discontinued" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="LohasModels.Suppliers">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="supplierid" ColumnName="supplierid" />
+          <ScalarProperty Name="companyname" ColumnName="companyname" />
+          <ScalarProperty Name="contactname" ColumnName="contactname" />
+          <ScalarProperty Name="contacttitle" ColumnName="contacttitle" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="postalcode" ColumnName="postalcode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="LohasModels.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="companyname" ColumnName="companyname" />
+          <ScalarProperty Name="contactname" ColumnName="contactname" />
+          <ScalarProperty Name="contacttitle" ColumnName="contacttitle" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="postalcode" ColumnName="postalcode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="LohasModels.OrderDetails">
+        <MappingFragment StoreEntitySet="OrderDetails">
+          <ScalarProperty Name="orderid" ColumnName="orderid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="unitprice" ColumnName="unitprice" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="LohasModels.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="orderid" ColumnName="orderid" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="orderdate" ColumnName="orderdate" />
+          <ScalarProperty Name="requireddate" ColumnName="requireddate" />
+          <ScalarProperty Name="shippeddate" ColumnName="shippeddate" />
+          <ScalarProperty Name="shipperid" ColumnName="shipperid" />
+          <ScalarProperty Name="freight" ColumnName="freight" />
+          <ScalarProperty Name="shipname" ColumnName="shipname" />
+          <ScalarProperty Name="shipaddress" ColumnName="shipaddress" />
+          <ScalarProperty Name="shipcity" ColumnName="shipcity" />
+          <ScalarProperty Name="shipregion" ColumnName="shipregion" />
+          <ScalarProperty Name="shippostalcode" ColumnName="shippostalcode" />
+          <ScalarProperty Name="shipcountry" ColumnName="shipcountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shippers">
+      <EntityTypeMapping TypeName="LohasModels.Shippers">
+        <MappingFragment StoreEntitySet="Shippers">
+          <ScalarProperty Name="shipperid" ColumnName="shipperid" />
+          <ScalarProperty Name="companyname" ColumnName="companyname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderValues">
+      <EntityTypeMapping TypeName="LohasModels.OrderValues">
+        <MappingFragment StoreEntitySet="OrderValues">
+          <ScalarProperty Name="orderid" ColumnName="orderid" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="shipperid" ColumnName="shipperid" />
+          <ScalarProperty Name="orderdate" ColumnName="orderdate" />
+          <ScalarProperty Name="val" ColumnName="val" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

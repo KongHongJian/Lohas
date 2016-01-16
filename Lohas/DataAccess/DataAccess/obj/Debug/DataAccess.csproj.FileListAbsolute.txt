@@ -1,0 +1,10 @@
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\DataAccess.dll.config
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\DataAccess.dll
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\DataAccess.pdb
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\EntityFramework.dll
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\EntityFramework.xml
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\obj\Debug\DataAccess.dll
+E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\obj\Debug\DataAccess.pdb

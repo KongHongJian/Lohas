@@ -73,7 +73,7 @@
       <Project>{48e95082-5eb1-4b88-9821-8f5788ac7c29}</Project>
       <Name>Lohas.Business.Component</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
+    <ProjectReference Include="..\Framework\Lohas.Core\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
       <Project>{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}</Project>
       <Name>Lohas.Core.Ioc</Name>
     </ProjectReference>
