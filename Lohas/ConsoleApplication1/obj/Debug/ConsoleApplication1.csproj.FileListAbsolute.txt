@@ -21,3 +21,6 @@ E:\Lohas\Lohas\ConsoleApplication1\bin\Debug\Lohas.Business.Component.Contract.d
 E:\Lohas\Lohas\ConsoleApplication1\bin\Debug\Lohas.Business.Component.Contract.pdb
 E:\Lohas\Lohas\ConsoleApplication1\bin\Debug\Lohas.Business.Component.dll
 E:\Lohas\Lohas\ConsoleApplication1\bin\Debug\Lohas.Business.Component.pdb
+E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\GitProject\Lohas\Lohas\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\GitProject\Lohas\Lohas\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
