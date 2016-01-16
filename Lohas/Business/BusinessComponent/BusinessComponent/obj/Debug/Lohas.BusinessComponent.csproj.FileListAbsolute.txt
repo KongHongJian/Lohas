@@ -1,0 +1,16 @@
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.BusinessComponent.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.BusinessComponent.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.BusinessComponentContract.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Core.Ioc.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.Core.Ioc.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Lohas.BusinessComponentContract.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.BusinessComponent.csprojResolveAssemblyReference.cache
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.BusinessComponent.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\Lohas.BusinessComponent.pdb

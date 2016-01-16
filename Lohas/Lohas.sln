@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{552EED71-C35C-43EE-80DF-A78185A53422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lohas.Core", "Lohas.Core", "{C7DB7501-F47D-45B3-A4F5-DD26B4380BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lohas.Core.Ioc", "Lohas.Core.Ioc", "{B7C9EF3C-3C72-4A38-89FD-CBA2CB4783CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Core.Ioc", "Lohas.Core.Ioc\Lohas.Core.Ioc.csproj", "{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{EDB4B9C4-DD73-4C6A-A413-24527E388A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Business.Component", "Business\BusinessComponent\BusinessComponent\Lohas.Business.Component.csproj", "{48E95082-5EB1-4B88-9821-8F5788AC7C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Business.Component.Contract", "Business\BusinessComponentContract\BusinessComponentContract\Lohas.Business.Component.Contract.csproj", "{9F2F385F-AD8F-463B-BA18-67FE43546220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E95082-5EB1-4B88-9821-8F5788AC7C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E95082-5EB1-4B88-9821-8F5788AC7C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E95082-5EB1-4B88-9821-8F5788AC7C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E95082-5EB1-4B88-9821-8F5788AC7C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2F385F-AD8F-463B-BA18-67FE43546220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2F385F-AD8F-463B-BA18-67FE43546220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2F385F-AD8F-463B-BA18-67FE43546220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2F385F-AD8F-463B-BA18-67FE43546220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628A05D4-F562-4FD5-B9D2-B935B33AEFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7DB7501-F47D-45B3-A4F5-DD26B4380BBB} = {552EED71-C35C-43EE-80DF-A78185A53422}
+		{B7C9EF3C-3C72-4A38-89FD-CBA2CB4783CF} = {C7DB7501-F47D-45B3-A4F5-DD26B4380BBB}
+		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82} = {B7C9EF3C-3C72-4A38-89FD-CBA2CB4783CF}
+		{48E95082-5EB1-4B88-9821-8F5788AC7C29} = {EDB4B9C4-DD73-4C6A-A413-24527E388A8A}
+		{9F2F385F-AD8F-463B-BA18-67FE43546220} = {EDB4B9C4-DD73-4C6A-A413-24527E388A8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

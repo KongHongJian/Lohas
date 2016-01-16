@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Administrator\Desktop\chenxing\chenxing\Main\packages\NCS.IConnect.Core.4.5.4\lib\net45\NCS.IConnect.Core.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\envdte.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Administrator\Documents\Tencent Files\2595952023\FileRecv\bcdemo\bcdemo\bin\Debug\OPRS.Business.Core.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

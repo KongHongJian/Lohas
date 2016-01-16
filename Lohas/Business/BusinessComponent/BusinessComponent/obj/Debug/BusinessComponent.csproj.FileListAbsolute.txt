@@ -1,0 +1,7 @@
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\BusinessComponent.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\BusinessComponent.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\BusinessComponentContract.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\bin\Debug\BusinessComponentContract.pdb
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\BusinessComponent.csprojResolveAssemblyReference.cache
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\BusinessComponent.dll
+E:\Lohas\Lohas\Business\BusinessComponent\BusinessComponent\obj\Debug\BusinessComponent.pdb
