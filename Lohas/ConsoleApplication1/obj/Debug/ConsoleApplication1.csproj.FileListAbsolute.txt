@@ -43,6 +43,7 @@ E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\Microsoft.Practices.Serv
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\Microsoft.Practices.Unity.xml
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+<<<<<<< HEAD
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\DataAccess.dll
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\EntityFramework.dll
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
@@ -50,3 +51,5 @@ E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\DataAccess.pdb
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\EntityFramework.xml
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
 E:\GitProject\Lohas\Lohas\ConsoleApplication1\bin\Debug\zh-Hans\EntityFramework.resources.dll
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717

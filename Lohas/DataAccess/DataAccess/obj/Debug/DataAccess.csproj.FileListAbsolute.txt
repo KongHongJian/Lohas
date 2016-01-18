@@ -8,4 +8,7 @@ E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\EntityFramework.SqlSer
 E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\obj\Debug\DataAccess.dll
 E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\obj\Debug\DataAccess.pdb
+<<<<<<< HEAD
 E:\GitProject\Lohas\Lohas\DataAccess\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717

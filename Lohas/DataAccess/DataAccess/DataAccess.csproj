@@ -92,6 +92,7 @@
     <Compile Include="EntityFramework\Suppliers.cs">
       <DependentUpon>Lohas.tt</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="EntityFramework\Systems_SiteMap.cs">
       <DependentUpon>Lohas.tt</DependentUpon>
     </Compile>
@@ -99,10 +100,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+=======
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <EntityDeploy Include="EntityFramework\Lohas.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Lohas.Designer.cs</LastGenOutput>
     </EntityDeploy>
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <None Include="EntityFramework\Lohas.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Lohas.edmx</DependentUpon>

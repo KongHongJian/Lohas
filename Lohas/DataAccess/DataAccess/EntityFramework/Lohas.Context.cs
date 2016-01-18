@@ -25,7 +25,10 @@ namespace DataAccess.EntityFramework
             throw new UnintentionalCodeFirstException();
         }
     
+<<<<<<< HEAD
         public virtual DbSet<Systems_SiteMap> Systems_SiteMap { get; set; }
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         public virtual DbSet<Employees> Employees { get; set; }
         public virtual DbSet<Categories> Categories { get; set; }
         public virtual DbSet<Products> Products { get; set; }

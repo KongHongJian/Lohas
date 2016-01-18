@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <Schema Namespace="LohasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Systems_SiteMap">
     <Key>
@@ -12,6 +13,9 @@
     <Property Name="UrlAction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="ParentID" Type="Guid" Nullable="false" />
   </EntityType>
+=======
+<Schema Namespace="LohasModels" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
   <EntityType Name="Employees">
     <Key>
       <PropertyRef Name="empid" />
@@ -247,7 +251,10 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="LohasContext" annotation:LazyLoadingEnabled="true">
+<<<<<<< HEAD
     <EntitySet Name="Systems_SiteMap" EntityType="Self.Systems_SiteMap" />
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <EntitySet Name="Employees" EntityType="Self.Employees" />
     <EntitySet Name="Categories" EntityType="Self.Categories" />
     <EntitySet Name="Products" EntityType="Self.Products" />

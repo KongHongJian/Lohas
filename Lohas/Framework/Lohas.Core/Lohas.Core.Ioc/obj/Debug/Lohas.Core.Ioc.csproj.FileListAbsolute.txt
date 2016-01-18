@@ -22,4 +22,7 @@ E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Ioc\bin\Debug\Lohas.Co
 E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Ioc\bin\Debug\System.Web.dll
 E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Ioc\obj\Debug\Lohas.Core.Ioc.dll
 E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Ioc\obj\Debug\Lohas.Core.Ioc.pdb
+<<<<<<< HEAD
 E:\GitProject\Lohas\Lohas\Framework\Lohas.Core\Lohas.Core.Ioc\obj\Debug\Lohas.Core.Ioc.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717

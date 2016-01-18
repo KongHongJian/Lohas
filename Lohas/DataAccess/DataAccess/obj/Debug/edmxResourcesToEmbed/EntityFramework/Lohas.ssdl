@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <Schema Namespace="LohasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Systems_SiteMap">
     <Key>
@@ -12,6 +13,9 @@
     <Property Name="UrlAction" Type="nvarchar" MaxLength="50" />
     <Property Name="ParentID" Type="uniqueidentifier" Nullable="false" />
   </EntityType>
+=======
+<Schema Namespace="LohasModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
   <EntityType Name="Employees">
     <Key>
       <PropertyRef Name="empid" />
@@ -121,6 +125,22 @@
     <Property Name="phone" Type="nvarchar" MaxLength="24" Nullable="false" />
   </EntityType>
   <!--生成过程中发现错误:
+<<<<<<< HEAD
+=======
+警告 6013: 表/视图“TSQLFundamentals2008.Sales.CustOrders”未定义主键，并且无法推断有效的主键。已排除了此表/视图。若要使用实体，将需要检查您的架构、添加正确的键并取消对实体的注释。
+        <EntityType Name="CustOrders">
+          <Property Name="custid" Type="int" />
+          <Property Name="ordermonth" Type="datetime" />
+          <Property Name="qty" Type="int" />
+        </EntityType>-->
+  <!--生成过程中发现错误:
+警告 6013: 表/视图“TSQLFundamentals2008.Sales.OrderTotalsByYear”未定义主键，并且无法推断有效的主键。已排除了此表/视图。若要使用实体，将需要检查您的架构、添加正确的键并取消对实体的注释。
+        <EntityType Name="OrderTotalsByYear">
+          <Property Name="orderyear" Type="int" />
+          <Property Name="qty" Type="int" />
+        </EntityType>-->
+  <!--生成过程中发现错误:
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
 警告 6002: 表/视图“TSQLFundamentals2008.Sales.OrderValues”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
   <EntityType Name="OrderValues">
     <Key>
@@ -232,8 +252,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+<<<<<<< HEAD
   <EntityContainer Name="LohasModelStoreContainer">
     <EntitySet Name="Systems_SiteMap" EntityType="Self.Systems_SiteMap" Schema="dbo" Table="Systems.SiteMap" store:Type="Tables" />
+=======
+  <EntityContainer Name="LohasModelsStoreContainer">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <EntitySet Name="Employees" EntityType="Self.Employees" Schema="HR" store:Type="Tables" />
     <EntitySet Name="Categories" EntityType="Self.Categories" Schema="Production" store:Type="Tables" />
     <EntitySet Name="Products" EntityType="Self.Products" Schema="Production" store:Type="Tables" />

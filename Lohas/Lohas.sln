@@ -25,10 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Web", "Web\Lohas.Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Core.Ioc", "Framework\Lohas.Core\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj", "{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lohas.Core.Web", "Lohas.Core.Web", "{B74E066F-91C2-4380-8DC3-DD3B9C87B4DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohas.Core.Web", "Framework\Lohas.Core\Lohas.Core.Web\Lohas.Core.Web\Lohas.Core.Web.csproj", "{580941EB-FC37-43C1-AE39-46517BF714D4}"
 EndProject
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +62,13 @@ Global
 		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{580941EB-FC37-43C1-AE39-46517BF714D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{580941EB-FC37-43C1-AE39-46517BF714D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580941EB-FC37-43C1-AE39-46517BF714D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580941EB-FC37-43C1-AE39-46517BF714D4}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,8 +80,11 @@ Global
 		{9F2F385F-AD8F-463B-BA18-67FE43546220} = {EDB4B9C4-DD73-4C6A-A413-24527E388A8A}
 		{192F68D8-92B3-4530-9265-B69622FC3513} = {FFAD6B76-496A-4F34-821E-9D5D9E089035}
 		{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82} = {B7C9EF3C-3C72-4A38-89FD-CBA2CB4783CF}
+<<<<<<< HEAD
 		{B74E066F-91C2-4380-8DC3-DD3B9C87B4DF} = {C7DB7501-F47D-45B3-A4F5-DD26B4380BBB}
 		{580941EB-FC37-43C1-AE39-46517BF714D4} = {B74E066F-91C2-4380-8DC3-DD3B9C87B4DF}
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45

@@ -579,6 +579,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site1.css" />
+<<<<<<< HEAD
     <Content Include="navbar\css\bootstrap-rtl.css" />
     <Content Include="navbar\css\bootstrap-rtl.min.css" />
     <Content Include="navbar\css\bootstrap.css" />
@@ -603,6 +604,8 @@
     <Content Include="navbar\js\plugins\morris\morris.js" />
     <Content Include="navbar\js\plugins\morris\morris.min.js" />
     <Content Include="navbar\js\plugins\morris\raphael.min.js" />
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\kendo\2015.3.1111\razor\Url.cshtml" />
@@ -638,6 +641,7 @@
     <Content Include="Content\Fonts\icomoon.eot" />
     <Content Include="Content\Fonts\icomoon.ttf" />
     <Content Include="Content\Fonts\icomoon.woff" />
+<<<<<<< HEAD
     <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="navbar\font-awesome\fonts\fontawesome-webfont.woff" />
@@ -689,6 +693,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

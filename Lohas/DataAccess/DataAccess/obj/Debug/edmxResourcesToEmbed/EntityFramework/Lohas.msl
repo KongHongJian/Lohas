@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
   <EntityContainerMapping StorageEntityContainer="LohasModelStoreContainer" CdmEntityContainer="LohasContext">
     <EntitySetMapping Name="Systems_SiteMap">
       <EntityTypeMapping TypeName="LohasModel.Systems_SiteMap">
@@ -16,6 +17,11 @@
     </EntitySetMapping>
     <EntitySetMapping Name="Employees">
       <EntityTypeMapping TypeName="LohasModel.Employees">
+=======
+  <EntityContainerMapping StorageEntityContainer="LohasModelsStoreContainer" CdmEntityContainer="LohasContext">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="LohasModels.Employees">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Employees">
           <ScalarProperty Name="empid" ColumnName="empid" />
           <ScalarProperty Name="lastname" ColumnName="lastname" />
@@ -35,7 +41,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Categories">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Categories">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Categories">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Categories">
           <ScalarProperty Name="categoryid" ColumnName="categoryid" />
           <ScalarProperty Name="categoryname" ColumnName="categoryname" />
@@ -44,7 +54,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Products">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Products">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Products">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Products">
           <ScalarProperty Name="productid" ColumnName="productid" />
           <ScalarProperty Name="productname" ColumnName="productname" />
@@ -56,7 +70,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Suppliers">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Suppliers">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Suppliers">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Suppliers">
           <ScalarProperty Name="supplierid" ColumnName="supplierid" />
           <ScalarProperty Name="companyname" ColumnName="companyname" />
@@ -73,7 +91,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Customers">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Customers">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Customers">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Customers">
           <ScalarProperty Name="custid" ColumnName="custid" />
           <ScalarProperty Name="companyname" ColumnName="companyname" />
@@ -90,7 +112,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="OrderDetails">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.OrderDetails">
+=======
+      <EntityTypeMapping TypeName="LohasModels.OrderDetails">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="OrderDetails">
           <ScalarProperty Name="orderid" ColumnName="orderid" />
           <ScalarProperty Name="productid" ColumnName="productid" />
@@ -101,7 +127,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Orders">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Orders">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Orders">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Orders">
           <ScalarProperty Name="orderid" ColumnName="orderid" />
           <ScalarProperty Name="custid" ColumnName="custid" />
@@ -121,7 +151,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Shippers">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.Shippers">
+=======
+      <EntityTypeMapping TypeName="LohasModels.Shippers">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="Shippers">
           <ScalarProperty Name="shipperid" ColumnName="shipperid" />
           <ScalarProperty Name="companyname" ColumnName="companyname" />
@@ -130,7 +164,11 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="OrderValues">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="LohasModel.OrderValues">
+=======
+      <EntityTypeMapping TypeName="LohasModels.OrderValues">
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
         <MappingFragment StoreEntitySet="OrderValues">
           <ScalarProperty Name="orderid" ColumnName="orderid" />
           <ScalarProperty Name="custid" ColumnName="custid" />

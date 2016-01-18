@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@{
     ViewBag.Title = "Navbar";
     Layout = null;
@@ -197,6 +198,85 @@
     <script src="~/navbar/js/bootstrap.min.js"></script>
     <!-- Morris Charts JavaScript -->
     <script src="~/navbar/js/plugins/morris/raphael.min.js"></script>
+=======
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northwind Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.metro.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2015.3.1111/kendo.dataviz.metro.min.css" rel="stylesheet" />
+    <script src="~/Scripts/kendo/2015.3.1111/jquery.min.js"></script>
+    <script src="~/Scripts/kendo/2015.3.1111/kendo.all.min.js"></script>
+    <script src="~/Scripts/kendo/2015.3.1111/kendo.aspnetmvc.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/kendo.modernizr.custom.js")"></script>
+</head>
+<body>
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-6X92" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-6X92');</script>
+    <!-- End Google Tag Manager -->
+    <div class="container-fluid">
+        <!--open container-->
+        <div class="row row-offcanvas row-offcanvas-left">
+            <!--open row-->
+            <div id="nav-section" class="col-xs-12 column">
+                <!--open nav column-->
+                <div class="navbar-default">
+                    <button id="toggle-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <h1 id="dash-logo" class="center-block">Northwind&#183;Dash</h1>
+                <div class="collapse navbar-collapse" id="sidebar-nav" role="navigation">
+                    <ul class="nav">
+                       
+                        <li id="About"><a href="@(Url.Action("About", "Home"))"><span class="icon icon-info"></span>About</a></li>
+                        
+                        
+                        <li>
+                            <a href="#"><i class="icon icon-bar "></i> Charts<span class="icon arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="javascript:void(0)">Flot Charts</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Morris.js Charts</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                    <span id="rights">Copyright © 2002-2014 Telerik. All rights reserved.</span>
+                </div>
+            </div><!--close left column-->
+            <div id="main-section" class="col-xs-12 column">
+                <!--open main column-->
+                @RenderBody()
+            </div><!--close main column-->
+        </div><!--close row-->
+    </div><!--close container-->
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle=offcanvas]').click(function () {
+                $('.row-offcanvas').toggleClass('active');
+            });
+        });
+    </script>
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
 </body>
 </html>
 

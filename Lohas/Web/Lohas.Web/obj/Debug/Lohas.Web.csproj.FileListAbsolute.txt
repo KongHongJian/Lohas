@@ -90,8 +90,11 @@ E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\zh-Hans\Microsoft.Owin.Security.Twit
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\obj\Debug\Lohas.Web.dll
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\obj\Debug\Lohas.Web.pdb
+<<<<<<< HEAD
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\obj\Debug\Lohas.Web.csprojResolveAssemblyReference.cache
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\Lohas.Core.Web.dll
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\DataAccess.dll
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\Lohas.Core.Web.pdb
 E:\GitProject\Lohas\Lohas\Web\Lohas.Web\bin\DataAccess.pdb
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717

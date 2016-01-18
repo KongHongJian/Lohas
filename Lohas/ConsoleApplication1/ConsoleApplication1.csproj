@@ -82,10 +82,13 @@
       <Project>{48e95082-5eb1-4b88-9821-8f5788ac7c29}</Project>
       <Name>Lohas.Business.Component</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="..\DataAccess\DataAccess\DataAccess.csproj">
       <Project>{192F68D8-92B3-4530-9265-B69622FC3513}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+=======
+>>>>>>> 1677749c10fbdff4e8b86e8678f2803a0b1f4717
     <ProjectReference Include="..\Framework\Lohas.Core\Lohas.Core.Ioc\Lohas.Core.Ioc.csproj">
       <Project>{F0C37B5B-255C-4312-AAD8-22EDFE9CFF82}</Project>
       <Name>Lohas.Core.Ioc</Name>
